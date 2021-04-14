@@ -15,7 +15,7 @@ body, html {
   font-family:Arial, Helvetica, sans-serif;
   color: #324253;
   font-size: 15px;
-  background-color: #a1c482;
+  background-color: #00000;
 }
 
 /* Responsive design techniques amended by Nicholas Pretli on December 4, 2020 */
@@ -98,9 +98,9 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 /* Modified by Nicholas Pretli December 4, 2020; modified December 7, 2020 */
 
 .header-image {
-  background-image: url("smokelakecrop.jpg");
-  height: 40%;
-  background-position: center;
+  background-color: #51A987;
+  height: 30%;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -125,7 +125,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   color: white;
   font-size: 200px;
   text-shadow: 1px 1px 2px black;
-  font-size:2vw
+  font-size:1.5vw
   }
 
 .header-image-regional {
@@ -167,7 +167,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .topnav {
   overflow: hidden;
   outline: #000000 solid 5px;
-  background-color: #B35FFF;
+  background-color: #00000;
 }
 
 .topnav a {
@@ -202,7 +202,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #d41ce8;
+  background-color: ##C0C0C0;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -217,14 +217,14 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #da2bed;
+  background-color: ##C0C0C0;
   font-weight: bold;
   outline: #000000 solid 10px;
   color: black;
 }
 
 .dropdown-content a:hover {
-  background-color: #ff00ae;
+  background-color: ##C0C0C0;
   color: black;
 }
 
@@ -239,8 +239,7 @@ CSS concepts referenced from https://w3schools.com */
 
 .mainpagetext{
   text-align:center; 
-  background-color: rgb(44, 73, 44);
-  color: rgb(255, 255, 255);
+  background-color: #0000;
   padding: 0.5%;
 }
 
@@ -251,7 +250,7 @@ CSS concepts referenced from https://w3schools.com */
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #B35FFF;
+  background-color: #C0C0C0;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
@@ -354,7 +353,7 @@ by: Nicholas Pretli
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #B35FFF;
+  background-color: #51A987;
   color: black;
   font-weight: bold;
   text-align: center;
@@ -370,7 +369,7 @@ by: Nicholas Pretli
   margin: 300px auto;
   box-shadow: 0px 0px 10px 2px grey;
   border: 10px solid red;
-  background-image:url("four-people-outdoors.jpg")
+  background-image:url("toronto-kids-census-tract.jpg")
 
 }
 
