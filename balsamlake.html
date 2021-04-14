@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- TITLE: Balsam Lake Provincial Park-->
+<!-- DESCRIPTION: Information about Balsam Lake Provincial Park as part of the Kawartha Lakes Hiking Project website. --> 
+<!-- AUTHOR: Nicholas Pretli -->
+<!-- KEYWORDS: Hiking, Kawartha Lakes, Balsam Lake, Ontario, Outdoors -->
+<!-- CHARACTER SET: UTF-8 -->
+
+<!-- The following pages were referenced as they pertain to CSS: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
+
+<!-- Single external CSS document --> 
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- This is the title of the webpage -->
+<title>Kawartha Lakes Hiking</title>
+	
+<!--Added last minute by Eric, not sure which website I found this on, but basically allows us to incorporate fa-fa icons-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!---Site Header
+  by: Hayley Kennington
+  November 23, 2020 -->
+
+<div class="header-image-balsam">
+    <div class="header-text">
+      <h1><i>Balsam Lake Provincial Park</i></h1>
+    </div>
+  </div>
+<!-- Site Header End November 24, 2020 9:15 a.m. -->
+
+ 
+<!-- Responsive navigation bar with relative links 
+By: Nicholas Pretli 
+ December 4, 2020 -->
+<!-- Responsive navigation bar with relative links -->
+<!-- By: Nicholas Pretli -->
+<!--  December 4, 2020 -->
+<div class="topnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="regionalinfo.html">Regional Info</a>
+  <a href="naturalhistory.html">History</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Conservation Area</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
+  </div> 
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- Button fade/toggle
+by: Tayler Nichol
+November 20, 2020
+Adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp
+Javascript source for page functionality -->
+
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="javascript.js"></script>
+
+<!-- Page intro -->
+<div class = "mainpagetext">
+  <p>Located on Highway 48 between the towns of Coboconk and Kirkfield, Balsam Lake is a small provincial park with a variety of hiking trails and activities for visitors, including boating and camping. The park contains a beach, several notable bird species, and a variety of natural landscapes such as open meadows, swamps, and forest. </p>
+
+<!-- Description of hiking -->
+  <p class="main">The provincial park contains two short hiking trails, Lookout Trail and Plantation Trail. Both are interpretive trails that contain signposts with information about the natural and human history of the area, and are suitable for hikers at all levels of experience.</p>
+  <p class="main">See descriptions of each trail below.</p>
+</div>
+
+<!--Folders opened and closed with button functionality-->
+  <button id="trailtitle1">Lookout Trail</button>
+  <br><br>
+  <div id="trailtext1"><b>Lookout Trail</b> is a 2.6-kilometer trail that takes approximately one and a half hours to walk. Along this trail, you will walk over eskers - ridges of gravel and sediment formed 10,000 years ago by meltwater from the Wisconsin Glacier. Natural landscapes visible along the trail include cedar swamp, deciduous forest, and open meadow. The ‘lookout’ is the highest point on the trail and has a stunning panorama view of the surrounding forest.
+  <br><br>
+  <img src="../a2webaccess/Balsam-Lake-Lookout-Nature-Lover.jpg" alt="Photo of Balsam Lake Lookout Trail Signpost" height=300>
+  <p class="imagecptn">Credit: NatureLover.ca</p>
+  </div><br><br>
+
+  <button id="trailtitle2">Plantation Trail</button>
+  <br><br>
+  <div id="trailtext2"><b>Plantation Trail</b> is a 4.2-km trail – about a two-hour walk. This trail will take you through landscapes modified by humans, including some of the region’s earliest settlers. You will see old logging sites and farm fields, as well as reforested plantations and a pond teeming with wildlife. 
+  <br><br>
+  <img src="../a2webaccess/BalsamLake5PlantationTrailAllTrailscom.jpeg" alt="Photo of Balsam Lake Plantation Trail Signpost" height=300>
+
+  <p class="imagecptn">Credit: AllTrails.com</p>
+  </div>
+	
+<!-- Other activities -->
+<div class = "mainpagetext">
+<h2>Other Park Activities</h2>
+  <p class="main">Balsam Lake is ideal for birding, biking, and swimming. At the lake itself, visitors can rent canoes, kayaks, and paddle boats, or use the boating facilities (trailer parking and launching areas) provided. The park also participates in the Ontario ‘Learn to Fish’ program, which provides a free one-hour practical teaching session and an hour of supervised hands-on practice for people of all ages interested in learning more about fishing. 
+  </p>
+  <p class="main">Camping is available in the park from mid-May to mid-October. Winter activities are also available, including snowshoeing. In some years an ice-skating trail is built in the park for the Kawartha Lakes Frostival. Park facilities include washrooms, a playground, and the park store. </p>
+</div>
+
+<!-- Page sources -->
+<!--Page sources-->
+  <h3>Sources</h3>
+  <ul>
+      <li><a href = https://www.ontarioparks.com/park/balsamlake/activities> Ontario Parks: Balsam Lake</a></li>
+      <li><a href = https://www.todocanada.ca/city/peterborough/listing/balsam-lake-provincial-park>To Do Canada: Peterborough</a></li>
+      <li><a href = https://www.www.ontariotrails.on.ca/trails/view/plantation-trail>Ontario Trails: Balsam Lake Trails</a></li>
+  </ul>  
+  <br><br>
+
+<button class="dlbtn" onclick="location.href='https://www.ontarioparks.com/park/balsamlake';"><i class="fa fa-book"></i>   Learn More Here</button>
+<button class="dlbtn" type="submit" onclick="window.open('park_map.pdf')"><i class="fa fa-map-o"></i> Download Map Here</button>
+</body>
+</html>

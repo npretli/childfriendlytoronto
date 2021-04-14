@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- TITLE: Kawartha Lakes Hiking -->
+<!-- DESCRIPTION: The home page for The Kawartha Lakes Hiking Project website. --> 
+<!-- AUTHOR: Nicholas Pretli -->
+<!-- KEYWORDS: Hiking, Kawartha Lakes, Home Page, Ontario, Outdoors -->
+<!-- CHARACTER SET: UTF-8 -->
+
+<!-- The following pages were referenced as they pertain to CSS: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
+
+<!-- Single external CSS document --> 
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+<!-- Webpage Title
+By: Nicholas Pretli 
+December 7, 2020 -->
+<title>Kawartha Lakes Hiking</title>
+</head>
+<body>
+
+<!-- Site Header
+by: Hayley Kennington
+November 23, 2020 -->
+<div class="header-image">              
+    <div class="header-text">
+      <h1>Kawartha Lakes <i>HIKING</i></h1>      
+    </div>
+  </div>
+<!-- Site Header End November 24, 2020 9:15 a.m. 
+Responsive navigation bar with relative links 
+By: Nicholas Pretli
+December 4, 2020 -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="regionalinfo.html">Regional Info</a>
+  <a href="naturalhistory.html">History</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Conservation Area</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
+</div> 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- Responsive dropdown navigation menu
+By: Nicholas Pretli 
+December 7, 2020 -->
+<script src="javascript.js"></script>
+<!-- Preliminary information 
+By: Tayler Nichol 
+December 7, 2020 -->
+  <div class = "mainpagetext">
+    <h2>The Kawartha Lakes Hiking Project</h2>
+    <p>This website is intended to provide information about a selection of these hiking trails and other outdoor activities available in the parks.</p>
+	<p>The Kawartha Lakes region in Ontario has over 600 kilometres of trails, many located within local conservation areas and the Ontario Parks system.</p>
+    <h2>About Ontario Parks and Conservation Areas</h2>
+    <p>The natural landscapes, trails, and campgrounds available in Ontario’s Parks and Conservation Areas are a valuable resource for the province in many ways, from the protection of the environment and ecosystem services, to education and tourism. </p>
+    <h2>About the Project</h2>
+    <p>This website was created by four GIS students from Fleming College who are passionate about hiking, the outdoors, programming, and mapping. It is also intended as a showcase of our developing web design and communication skills. </p>
+  </div>
+  
+<!-- Image of friends enjoying the outdoors 
+By: Nicholas Pretli 
+December 7, 2020
+Second last image from bottom of main page sourced from https://chaudiereappalaches.com/en/travel-quebec/region-de-thetford/saint-joseph-de-coleraine/sentiers-pedestres-des-3-monts/hiking/ -->
+<div class="friends">
+<img src="four-people-outdoors.jpg" alt="Friends Outdoors" width="912" height="504" class="responsive">
+</div>
+
+<!-- Footer message 
+By: Nicholas Pretli 
+December 7, 2020 -->
+  <div class="footer">
+  <p>COMING SOON! Beginning tentatively in May 2021, we will be offering guided tours of a Kawartha Lakes park of your choice.</p>
+  <p>For more information, please contact us anytime at (519) 538-4490 or at npretli@flemingcollege.ca</p>
+  <p> Copyright © 2021 The Kawartha Lakes Hiking Project. </p>
+  </div>
+</body>
+</html>

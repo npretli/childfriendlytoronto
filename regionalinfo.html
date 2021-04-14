@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- TITLE: Regional Info-->
+<!-- DESCRIPTION: General information about the Kawartha Lakes region as part of the Kawartha Lakes Hiking Project website. --> 
+<!-- AUTHOR: Nicholas Pretli -->
+<!-- KEYWORDS: Hiking, Kawartha Lakes, Regional Info, Ontario, Outdoors -->
+<!-- CHARACTER SET: UTF-8 -->
+
+<!-- The following pages were referenced as they pertain to HTML: https://www.kawarthalakes.ca/en/living-here/about-kawartha-lakes.aspx 
+The following pages were referenced as they pertain to CSS: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+Ideas referenced from https://www.kawarthalakes.ca/en/living-here/about-kawartha-lakes.aspx 
+Static map sourced from Google Developers: https://developers.google.com/maps/documentation/maps-static/overview?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_432494864760-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20SKWS%20~%20Maps%20Static%20API-KWID_43700053359877717-kwd-505086761433-userloc_1002212&utm_term=KW_%2Bmaps%20%2Bstatic%20%2Bapi-ST_%2Bmaps%20%2Bstatic%20%2Bapi&gclid=CjwKCAiAwrf-BRA9EiwAUWwKXgBfEoOh05wzOhXIY8DfXw20g-S7rLH122zNsbzeG8lF9cczBKoCXxoCj9QQAvD_BwE -->
+
+<!-- Single external CSS document --> 
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- This is the title of the webpage -->
+<title>Kawartha Lakes Hiking</title>
+</head>
+<body>
+  <!---Site Header
+  by: Hayley Kennington
+  November 23, 2020 -->
+<div class="header-image-regional">
+    <div class="header-text">
+      <h1><i>Regional Info</i></h1>
+    </div>
+  </div>
+  <!--Site Header End November 24, 2020 9:15 a.m.
+Responsive navigation bar with relative links
+By: Nicholas Pretli
+December 4, 2020 -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="regionalinfo.html">Regional Info</a>
+  <a href="naturalhistory.html">History</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Conservation Area</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
+  </div> 
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script src="javascript.js"></script>
+</script>
+<div class = "mainpagetext">
+<h2>About Kawartha Lakes, Ontario, Canada</h2>
+<p>The City of Kawartha Lakes is an amalgamated municipality northwest of Peterborough, Ontario. It is located along the Trent-Severn Waterway and noted for its sprawling system of two hundred and fifty lakes and rivers. Kawartha Lakes is a vibrant region with a myriad of outdoor settings and recreational opportunities. </p>
+<p>Kawartha Lakes consists of the many smaller communities that comprise the former Victoria County, the largest of which is the town of Lindsay, Ontario. Kawartha Lakes has a permanent population of 75,000, but over 30,000 people also stay in the region on a seasonal basis. Additionally, Kawartha Lakes sees almost 1.4 million visitors each year, drawn to the area by its lakes, green spaces, and local culture. </p>
+<p>With over 250 lakes and rivers and a number of provincial parks, The Kawartha Lakes is a vibrant region for its myriad of outdoor settings and recreational opportunities. Located just over an hour's drive north-east of the GTA, the region is easily accessible whether visiting for the day, living here seasonally, or relocating permanently.</p>
+<h2>Land Acknowledgement</h2>
+<p>Kawartha Lakes is located on the traditional lands of the Anishinaabe people.</p>
+</div>
+<br>
+<div class = "static">
+<img src = "http://maps.googleapis.com/maps/api/staticmap?center=KawarthaLakes,Ontario&zoom=10&size=600x300&maptype=hybrid&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo" alt="Trulli" width="600" height="300">
+<p class="imagecptn">Credit: Google Maps Static API</p>
+</div>
+</body>
+</html>

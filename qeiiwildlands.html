@@ -1,0 +1,77 @@
+<!-- The following pages were referenced as they pertain to CSS: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Single external CSS document --> 
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- This is the title of the webpage -->
+<title>Kawartha Lakes Hiking</title>
+	
+<!-- Added last minute by Eric, not sure which website I found this on, but basically allows us to incorporate fa-fa icons -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-- Site Header
+  by: Hayley Kennington
+  November 23, 2020 -->
+<div class="header-image-qeii">
+    <div class="header-text">
+      <h1><i>Queen Elizabeth II Wildlands Provincial Park</i></h1>
+    </div>
+  </div>
+  <!-- Site Header End November 24, 2020 9:15 a.m. -->
+
+ <!-- Site Header
+  by: Nicholas Pretli
+  December 4th, 2020 -->
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="regionalinfo.html">Regional Info</a>
+  <a href="naturalhistory.html">History</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hiking Trails 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="balsamlake.html">Balsam Lake Provincial Park</a>
+      <a href="kenreid.html">Ken Reid Conservation Area</a>
+      <a href="qeiiwildlands.html">Queen Elizabeth II Wildlands Provincial Park</a>
+	  </div>
+  </div> 
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="javascript.js"></script>
+<!-- Edited by Eric Millan, December 6, 2020 -->
+
+<div class = "mainpagetext">
+  <div id="maindescr">
+  The QEII Wildlands Provincial Park is an unmaintained park, which means it is free to explore! The <b>Ganaraska Trail</b>, however, does pass through the park and there are several access points.
+  Located nearly 90 kilometers north of Lindsay, QEII Wildlands Provincial Park (QEIIWPP) is a spectacular area to explore on foot or by canoe. Due to its primitive and unstaffed nature, this provincial park is quiet comparted its larger nearby cousin, Algonquin Park.<br><br> The park is characteristic of this area, a checkerboard of rock barren, wetlands and lakes. The Ganaraska Trail traverses a significant portion of the northern section of this park and is one of the best backcountry hiking trails available to Ontarians. 
+  Popular day use areas exist as well, with Victoria Falls at the eastern entrance and Devil Lake at the eastern trailhead. While exploring the eastern section of the park, you can also hike the Fire Tower Loop (former location of the Lutterworth Fire Tower).</div>
+</div>
+
+<!-- Button fade/toggle
+by: Tayler Nichol
+November 20, 2020
+Adapted from w3 schools: https://www.w3schools.com/jquery/jquery_fade.asp -->
+  <button id="trailtitle1">Ganaraska Trail</button>
+  <br><br>
+  <div id="trailtext1"><b>The Ganaraska Trail </b>Marked by white blazes, this trail traverses 500 kilometers of Canadian Wildernerss. There are many local clubs which lead guided hikes for many sections of trail. Aboout 100 kilometers of trail pass through QEII Wildlands PP and can be accessed from 3 locations: Victoria Falls, Devil Lake and Near Black Creek.
+  <br><br>
+  <img src="lake1.jpeg" alt="Photo of Highland Lake" height=300>
+  <p class="imagecptn">Credit: Eric Millan, Fall 2018</p>
+  </div>
+	
+<button class="dlbtn" onclick="location.href='https://www.ontarioparks.com/park/queenelizabeth2wildlands';"></a><i class="fa fa-book"></i>   Learn More Here</button>
+<button class="dlbtn" type="submit" onclick="window.open('qe2-backcountry-hiking-canoe-routes.pdf')"><i class="fa fa-map-o"></i> Download Map Here</button>
+
+</body>
+</html>
